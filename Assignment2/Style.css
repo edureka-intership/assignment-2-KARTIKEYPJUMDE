@@ -1,0 +1,130 @@
+.bg-image{
+    background-image: url(./Images/homepageimg.png);
+     height: 80vh;
+     width: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border: 5px gray;
+     
+ }
+
+ .login_button{
+  position: absolute;
+  left: 75%;
+  top: 3.5%;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+}
+.Create_an_account{
+  position: absolute;
+  left: 83%;
+  top: 2.5%;
+  background-color:transparent;
+  color: white;
+  border-color: white;
+  border-width: 0.1rem;
+  padding: 0.5rem;
+}
+ .logo {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    background: white;
+    width: 105px;
+    height: 113px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    margin-left: 43%;
+    font-family: Poppins;
+    font-weight: bold;
+  }
+
+
+   .heading1{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    top: 280px;
+    margin: auto;
+    font-size: 36px;
+   
+  } 
+
+  .restaurantsinput {
+    margin-top: 65px;
+    height: 40px;
+    width: 260px;
+    color: grey;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+    padding-left: 30px;
+    position: absolute;
+    top: 18px;
+    left: 680px;
+  }
+
+
+    .heading{ text-align: left;
+      color: #192f60;
+      /* margin-top: -60px; */
+      
+      font-family: Georgia, "Times New Roman", Times, serif;
+      padding-left: 35px;}
+
+.discoverrestaurants{ text-align: left;
+  color:gray;
+  /* font-weight: bold; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+  margin-top: 20px;
+
+}
+    .card{
+    /* margin-bottom: 3px; */
+    margin-right: 3px;
+    display: inline-block;
+    /* position: relative; */
+}
+
+.img-fluid{
+  height: 100%;
+}
+
+@media (min-width:480) and (max-width:768){
+
+  .bg-image{
+    
+     height: 500px;
+     width: 100%;
+    
+     
+ }
+
+ .img-fluid{
+  width: 100%;
+}
+  .login_button{
+    position: absolute;
+    left: 70%;
+    top: 3.5%;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+  }
+  .Create_an_account{
+    position: absolute;
+    left: 83%;
+    top: 2.5%;
+    background-color:transparent;
+    color: white;
+    border-color: white;
+    border-width: 0.1rem;
+    padding: 0.5rem;
+  }
+  
+  }
